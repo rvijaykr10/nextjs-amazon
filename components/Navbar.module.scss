@@ -1,5 +1,25 @@
-@use "../styles/_variables.module.scss" as myVars;
+@use "../styles/_variables.module.scss" as vars;
+@use "../styles/_mixins.module.scss" as mixs;
 
 .navbar {
-  color: myVars.$primary-color;
+  color: white;
+  height: mixs.rem(100);
+  .navTop {
+    background-color: vars.$black-pearl;
+    height: 60px;
+  }
+  .navBottom {
+    background-color: vars.$mid-night;
+    height: 40px;
+
+    & > div {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      & div {
+        padding: 0 mixs.rem(12);
+      }
+    }
+  }
 }
