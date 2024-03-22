@@ -6,11 +6,21 @@
   height: mixs.rem(100);
   .navTop {
     background-color: vars.$black-pearl;
-    height: 60px;
+    height: mixs.rem(60);
+    padding-left: mixs.rem(16);
+
+    & > div {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 mixs.rem(12);
+      cursor: pointer;
+    }
   }
   .navBottom {
     background-color: vars.$mid-night;
-    height: 40px;
+    height: mixs.rem(40);
+    padding-left: mixs.rem(16);
 
     & > div {
       height: 100%;
