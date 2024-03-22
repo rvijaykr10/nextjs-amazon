@@ -48,6 +48,9 @@
         & div:not(:first-child) {
           display: none;
         }
+        & div:first-child {
+          display: block;
+        }
       }
     }
   }
