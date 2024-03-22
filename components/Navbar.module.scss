@@ -32,6 +32,10 @@
         padding: 0 mixs.rem(12);
         cursor: pointer;
         font-size: mixs.rem(14);
+
+        &:first-child {
+          display: none;
+        }
       }
     }
   }
