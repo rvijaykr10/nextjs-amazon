@@ -35,4 +35,55 @@
       }
     }
   }
+
+  /* Media Queries */
+  @media only screen and (max-width: 600px) {
+    /* Styles for mobile devices */
+    .navBottom {
+      background-color: vars.$mid-night;
+      height: mixs.rem(40);
+      padding-left: mixs.rem(16);
+
+      & > div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        & div {
+          padding: 0 mixs.rem(8);
+          cursor: pointer;
+          font-size: mixs.rem(12);
+        }
+      }
+    }
+  }
+  //
+  @media only screen and (min-width: 600px) {
+    /* Styles for above mobile devices */
+  }
+  //
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablets */
+  }
+  //
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* Styles for small laptops */
+  }
+  //
+  @media only screen and (min-width: 1441px) {
+    /* Styles for large screens */
+  }
+  //
+  @media only screen and (orientation: portrait) {
+    /* Styles for portrait mode */
+  }
+  //
+  @media only screen and (orientation: landscape) {
+    /* Styles for landscape mode */
+  }
+  //
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi) {
+    /* Styles for high-resolution displays */
+  }
 }
