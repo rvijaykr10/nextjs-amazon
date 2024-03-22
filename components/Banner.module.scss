@@ -1,0 +1,11 @@
+@use "../styles/_mixins.module.scss" as mixs;
+
+.banner {
+  //   width: mixs.rem(1500);
+  width: 100vw;
+  height: mixs.rem(600);
+  background-image: url("../public/images/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

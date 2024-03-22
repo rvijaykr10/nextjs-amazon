@@ -2,6 +2,7 @@
 @use "../styles/_mixins.module.scss" as mixs;
 
 .navbar {
+  width: 100vw;
   color: white;
   height: mixs.rem(100);
   .navTop {
@@ -30,6 +31,7 @@
       & div {
         padding: 0 mixs.rem(12);
         cursor: pointer;
+        font-size: mixs.rem(14);
       }
     }
   }
