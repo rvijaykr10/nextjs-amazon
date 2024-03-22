@@ -1,5 +1,5 @@
-import variables from "@/styles/variables.module.scss";
+import Navbar from "@/components/Navbar";
 
 export default function page() {
-  return <div style={{ color: variables.primaryColor }}>page</div>;
+  return <Navbar />;
 }

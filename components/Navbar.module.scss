@@ -1,0 +1,5 @@
+@use "../styles/_variables.module.scss" as myVars;
+
+.navbar {
+  color: myVars.$primary-color;
+}
