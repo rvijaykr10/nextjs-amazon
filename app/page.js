@@ -8,8 +8,10 @@ export default function page() {
     <>
       <Navbar />
       <Banner />
-      <Products />
-      <Footer />
+      <div className="productFooterContainer">
+        <Products />
+        <Footer />
+      </div>
     </>
   );
 }

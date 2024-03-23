@@ -4,4 +4,10 @@
 
 body {
   background-color: #e3e6e6;
+  position: relative;
+}
+
+.productFooterContainer {
+  position: absolute;
+  top: 50vh;
 }
