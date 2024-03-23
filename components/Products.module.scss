@@ -23,26 +23,35 @@
       .heading {
         width: 100%;
         height: mixs.rem(27) !important;
-        border: 1px solid blueviolet;
+        font-size: mixs.rem(21);
+        font-weight: bold;
       }
       .photos {
         width: 100%;
         height: mixs.rem(311) !important;
-        border: 1px solid blueviolet;
       }
       .action {
         width: 100%;
         height: mixs.rem(19) !important;
-        border: 1px solid blueviolet;
+        color: vars.$dark-cyan;
+        font-size: mixs.rem(13);
+        cursor: pointer;
       }
     }
   }
   .row {
-    div {
+    .rowTypeOne {
       width: 100%;
       height: mixs.rem(281);
       margin-bottom: mixs.rem(20);
       background-color: vars.$primary-color;
+      padding: mixs.rem(20);
+
+      .heading {
+        height: mixs.rem(27);
+        font-size: mixs.rem(21);
+        font-weight: bold;
+      }
     }
   }
 }
