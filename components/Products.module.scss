@@ -1,0 +1,25 @@
+@use "../styles/_mixins.module.scss" as mixs;
+@use "../styles/_variables.module.scss" as vars;
+
+.products {
+  padding: mixs.rem(20) mixs.rem(20) 0 mixs.rem(20);
+  .cardRow {
+    display: flex;
+    justify-content: center;
+    column-gap: mixs.rem(20);
+    margin-bottom: mixs.rem(20);
+    div {
+      width: mixs.rem(350);
+      height: mixs.rem(420);
+      background-color: vars.$primary-color;
+    }
+  }
+  .row {
+    div {
+      width: 100%;
+      height: mixs.rem(281);
+      margin-bottom: mixs.rem(20);
+      background-color: vars.$primary-color;
+    }
+  }
+}
