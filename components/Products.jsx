@@ -106,7 +106,15 @@ export default function Products() {
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Deals in PCs</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/pc_1.svg"
+              alt="gaming photo"
+              width={310}
+              height={303}
+              priority
+            />
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
@@ -171,12 +179,28 @@ export default function Products() {
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Fill your Easter basket with joy</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/easter_1.svg"
+              alt="gaming photo"
+              width={310}
+              height={303}
+              priority
+            />
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Top Deal</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/top_deal_1.svg"
+              alt="gaming photo"
+              width={73}
+              height={230}
+              priority
+            />
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
@@ -306,12 +330,28 @@ export default function Products() {
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Player's paradise starts here</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/paradise_1.svg"
+              alt="gaming photo"
+              width={310}
+              height={303}
+              priority
+            />
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>A whole new way to work</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/work_1.svg"
+              alt="gaming photo"
+              width={310}
+              height={303}
+              priority
+            />
+          </div>
           <div className={styles.action}>See more</div>
         </div>
       </section>
@@ -328,7 +368,15 @@ export default function Products() {
       <section className={styles.cardRow}>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Laptops for every need</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/laptop_1.svg"
+              alt="gaming photo"
+              width={310}
+              height={303}
+              priority
+            />
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
@@ -386,12 +434,28 @@ export default function Products() {
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Creating business solutions</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/laptop_2.svg"
+              alt="gaming photo"
+              width={310}
+              height={303}
+              priority
+            />
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Personal Care under $25</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/brush_1.svg"
+              alt="gaming photo"
+              width={310}
+              height={303}
+              priority
+            />
+          </div>
           <div className={styles.action}>See more</div>
         </div>
       </section>
