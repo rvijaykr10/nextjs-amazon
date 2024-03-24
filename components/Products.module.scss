@@ -29,6 +29,28 @@
       .photos {
         width: 100%;
         height: mixs.rem(311) !important;
+
+        .photoTypeOne {
+          display: flex;
+
+          div {
+            height: mixs.rem(151);
+
+            p {
+              height: mixs.rem(18);
+
+              font-family: "Arial";
+              font-style: normal;
+              font-weight: 400;
+              font-size: mixs.rem(12);
+              line-height: mixs.rem(18);
+              display: flex;
+              align-items: center;
+
+              color: #0f1111;
+            }
+          }
+        }
       }
       .action {
         width: 100%;

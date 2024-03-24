@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "@/components/Products.module.scss";
 export default function Products() {
   return (
@@ -5,12 +6,102 @@ export default function Products() {
       <section className={styles.cardRow}>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Gaming accessories</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <div className={styles.photoTypeOne}>
+              <div>
+                <Image
+                  src="/images/gaming_1.svg"
+                  alt="gaming photo"
+                  width={147}
+                  height={115}
+                  priority
+                />
+                <p>Headsets</p>
+              </div>
+              <div>
+                <Image
+                  src="/images/gaming_2.svg"
+                  alt="gaming photo"
+                  width={147}
+                  height={115}
+                  priority
+                />
+                <p>Keyboards</p>
+              </div>
+            </div>
+            <div className={styles.photoTypeOne}>
+              <div>
+                <Image
+                  src="/images/gaming_3.svg"
+                  alt="gaming photo"
+                  width={147}
+                  height={115}
+                  priority
+                />
+                <p>Computer mice</p>
+              </div>
+              <div>
+                <Image
+                  src="/images/gaming_4.svg"
+                  alt="gaming photo"
+                  width={147}
+                  height={115}
+                  priority
+                />
+                <p>Chairs</p>
+              </div>
+            </div>
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Refresh your space</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <div className={styles.photoTypeOne}>
+              <div>
+                <Image
+                  src="/images/refresh_1.svg"
+                  alt="gaming photo"
+                  width={147}
+                  height={115}
+                  priority
+                />
+                <p>Dining</p>
+              </div>
+              <div>
+                <Image
+                  src="/images/refresh_2.svg"
+                  alt="gaming photo"
+                  width={147}
+                  height={115}
+                  priority
+                />
+                <p>Home</p>
+              </div>
+            </div>
+            <div className={styles.photoTypeOne}>
+              <div>
+                <Image
+                  src="/images/refresh_3.svg"
+                  alt="gaming photo"
+                  width={147}
+                  height={115}
+                  priority
+                />
+                <p>Kitchen</p>
+              </div>
+              <div>
+                <Image
+                  src="/images/refresh_4.svg"
+                  alt="gaming photo"
+                  width={147}
+                  height={115}
+                  priority
+                />
+                <p>Health</p>
+              </div>
+            </div>
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
@@ -27,7 +118,55 @@ export default function Products() {
       <section className={styles.cardRow}>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Handpicked music & audio</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            {" "}
+            <div className={styles.photos}>
+              <div className={styles.photoTypeOne}>
+                <div>
+                  <Image
+                    src="/images/music_1.svg"
+                    alt="music photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Headphones</p>
+                </div>
+                <div>
+                  <Image
+                    src="/images/music_2.svg"
+                    alt="music photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Guitars</p>
+                </div>
+              </div>
+              <div className={styles.photoTypeOne}>
+                <div>
+                  <Image
+                    src="/images/music_3.svg"
+                    alt="music photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Keyboards</p>
+                </div>
+                <div>
+                  <Image
+                    src="/images/music_4.svg"
+                    alt="music photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Microphones</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
@@ -42,7 +181,55 @@ export default function Products() {
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Shop deals in Fashion</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            {" "}
+            <div className={styles.photos}>
+              <div className={styles.photoTypeOne}>
+                <div>
+                  <Image
+                    src="/images/fashion_1.svg"
+                    alt="fashion photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Jeans under $50</p>
+                </div>
+                <div>
+                  <Image
+                    src="/images/fashion_2.svg"
+                    alt="fashion photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Tops under $25</p>
+                </div>
+              </div>
+              <div className={styles.photoTypeOne}>
+                <div>
+                  <Image
+                    src="/images/fashion_3.svg"
+                    alt="fashion photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Dresses under $30</p>
+                </div>
+                <div>
+                  <Image
+                    src="/images/fashion_4.svg"
+                    alt="fashion photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Shoes under $50</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className={styles.action}>See more</div>
         </div>
       </section>
@@ -66,7 +253,55 @@ export default function Products() {
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Gaming merchandise</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            {" "}
+            <div className={styles.photos}>
+              <div className={styles.photoTypeOne}>
+                <div>
+                  <Image
+                    src="/images/gaming_1.svg"
+                    alt="gaming photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Headsets</p>
+                </div>
+                <div>
+                  <Image
+                    src="/images/gaming_2.svg"
+                    alt="gaming photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Keyboards</p>
+                </div>
+              </div>
+              <div className={styles.photoTypeOne}>
+                <div>
+                  <Image
+                    src="/images/gaming_3.svg"
+                    alt="gaming photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Computer mice</p>
+                </div>
+                <div>
+                  <Image
+                    src="/images/gaming_4.svg"
+                    alt="gaming photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Chairs</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
@@ -98,7 +333,55 @@ export default function Products() {
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Warm & welcoming decor</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            {" "}
+            <div className={styles.photos}>
+              <div className={styles.photoTypeOne}>
+                <div>
+                  <Image
+                    src="/images/gaming_1.svg"
+                    alt="gaming photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Headsets</p>
+                </div>
+                <div>
+                  <Image
+                    src="/images/gaming_2.svg"
+                    alt="gaming photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Keyboards</p>
+                </div>
+              </div>
+              <div className={styles.photoTypeOne}>
+                <div>
+                  <Image
+                    src="/images/gaming_3.svg"
+                    alt="gaming photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Computer mice</p>
+                </div>
+                <div>
+                  <Image
+                    src="/images/gaming_4.svg"
+                    alt="gaming photo"
+                    width={147}
+                    height={115}
+                    priority
+                  />
+                  <p>Chairs</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
