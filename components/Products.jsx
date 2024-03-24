@@ -119,7 +119,52 @@ export default function Products() {
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Amazon Gadget Store</div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <div className={styles.photoTypeTwo}>
+              <div>
+                <Image
+                  src="/images/gadget_1.svg"
+                  alt="gadget photo"
+                  width={310}
+                  height={172}
+                  priority
+                />
+                <p>Smartphones</p>
+              </div>
+            </div>
+            <div className={styles.photoTypeThree}>
+              <div>
+                <Image
+                  src="/images/gadget_2.svg"
+                  alt="gadget photo"
+                  width={100}
+                  height={75}
+                  priority
+                />
+                <p>Tablets</p>
+              </div>
+              <div>
+                <Image
+                  src="/images/gadget_3.svg"
+                  alt="gadget photo"
+                  width={100}
+                  height={75}
+                  priority
+                />
+                <p>Laptops</p>
+              </div>
+              <div>
+                <Image
+                  src="/images/gadget_4.svg"
+                  alt="gadget photo"
+                  width={100}
+                  height={75}
+                  priority
+                />
+                <p>TVs</p>
+              </div>
+            </div>
+          </div>
           <div className={styles.action}>See more</div>
         </div>
       </section>

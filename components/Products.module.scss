@@ -51,6 +51,47 @@
             }
           }
         }
+
+        .photoTypeTwo {
+          display: flex;
+
+          div {
+            height: mixs.rem(192);
+
+            p {
+              height: mixs.rem(18);
+              font-family: "Arial";
+              font-style: normal;
+              font-weight: 400;
+              font-size: mixs.rem(12);
+              line-height: mixs.rem(18);
+              display: flex;
+              align-items: center;
+
+              color: #0f1111;
+            }
+          }
+        }
+        .photoTypeThree {
+          display: flex;
+          // gap: 5;
+
+          div {
+            height: mixs.rem(100);
+            p {
+              height: mixs.rem(18);
+              font-family: "Arial";
+              font-style: normal;
+              font-weight: 400;
+              font-size: mixs.rem(12);
+              line-height: mixs.rem(18);
+              display: flex;
+              align-items: center;
+
+              color: #0f1111;
+            }
+          }
+        }
       }
       .action {
         width: 100%;
