@@ -259,45 +259,45 @@ export default function Products() {
               <div className={styles.photoTypeOne}>
                 <div>
                   <Image
-                    src="/images/gaming_1.svg"
-                    alt="gaming photo"
+                    src="/images/merchandise_1.svg"
+                    alt="merchandise photo"
                     width={147}
                     height={115}
                     priority
                   />
-                  <p>Headsets</p>
+                  <p>Apparel</p>
                 </div>
                 <div>
                   <Image
-                    src="/images/gaming_2.svg"
-                    alt="gaming photo"
+                    src="/images/merchandise_2.svg"
+                    alt="merchandise photo"
                     width={147}
                     height={115}
                     priority
                   />
-                  <p>Keyboards</p>
+                  <p>Hats</p>
                 </div>
               </div>
               <div className={styles.photoTypeOne}>
                 <div>
                   <Image
-                    src="/images/gaming_3.svg"
-                    alt="gaming photo"
+                    src="/images/merchandise_3.svg"
+                    alt="merchandise photo"
                     width={147}
                     height={115}
                     priority
                   />
-                  <p>Computer mice</p>
+                  <p>Action figures</p>
                 </div>
                 <div>
                   <Image
-                    src="/images/gaming_4.svg"
-                    alt="gaming photo"
+                    src="/images/merchandise_4.svg"
+                    alt="merchandise photo"
                     width={147}
                     height={115}
                     priority
                   />
-                  <p>Chairs</p>
+                  <p>Mugs</p>
                 </div>
               </div>
             </div>
@@ -339,45 +339,45 @@ export default function Products() {
               <div className={styles.photoTypeOne}>
                 <div>
                   <Image
-                    src="/images/gaming_1.svg"
-                    alt="gaming photo"
+                    src="/images/decor_1.svg"
+                    alt="decor photo"
                     width={147}
                     height={115}
                     priority
                   />
-                  <p>Headsets</p>
+                  <p>Wreaths & garlands</p>
                 </div>
                 <div>
                   <Image
-                    src="/images/gaming_2.svg"
-                    alt="gaming photo"
+                    src="/images/decor_2.svg"
+                    alt="decor photo"
                     width={147}
                     height={115}
                     priority
                   />
-                  <p>Keyboards</p>
+                  <p>Outdoor decor</p>
                 </div>
               </div>
               <div className={styles.photoTypeOne}>
                 <div>
                   <Image
-                    src="/images/gaming_3.svg"
-                    alt="gaming photo"
+                    src="/images/decor_3.svg"
+                    alt="decor photo"
                     width={147}
                     height={115}
                     priority
                   />
-                  <p>Computer mice</p>
+                  <p>Pillows & throws</p>
                 </div>
                 <div>
                   <Image
-                    src="/images/gaming_4.svg"
-                    alt="gaming photo"
+                    src="/images/decor_4.svg"
+                    alt="decor photo"
                     width={147}
                     height={115}
                     priority
                   />
-                  <p>Chairs</p>
+                  <p>Wall art & mirrors</p>
                 </div>
               </div>
             </div>
