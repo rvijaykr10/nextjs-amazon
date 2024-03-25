@@ -132,6 +132,116 @@
       grid-template-rows: 2fr;
       grid-column-gap: mixs.rem(20);
       grid-row-gap: mixs.rem(20);
+
+      margin-bottom: mixs.rem(20);
+      width: 100%;
+
+      .cardTypeOne {
+        height: mixs.rem(350);
+        padding: mixs.rem(20);
+        background-color: vars.$primary-color;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .heading {
+          width: 100%;
+          height: mixs.rem(27) !important;
+          font-size: mixs.rem(21);
+          font-weight: bold;
+        }
+        .photos {
+          width: 100%;
+          height: mixs.rem(247) !important;
+
+          .photoTypeOne {
+            display: flex;
+
+            div {
+              height: mixs.rem(125);
+
+              p {
+                height: mixs.rem(18);
+
+                font-family: "Arial";
+                font-style: normal;
+                font-weight: 400;
+                font-size: mixs.rem(12);
+                line-height: mixs.rem(18);
+                display: flex;
+                align-items: center;
+
+                color: #0f1111;
+              }
+            }
+          }
+
+          .photoTypeTwo {
+            display: flex;
+
+            div {
+              height: mixs.rem(160);
+
+              p {
+                height: mixs.rem(18);
+                font-family: "Arial";
+                font-style: normal;
+                font-weight: 400;
+                font-size: mixs.rem(12);
+                line-height: mixs.rem(18);
+                display: flex;
+                align-items: center;
+
+                color: #0f1111;
+              }
+            }
+          }
+          .photoTypeThree {
+            display: flex;
+            // gap: 5;
+
+            div {
+              height: mixs.rem(100);
+              p {
+                height: mixs.rem(18);
+                font-family: "Arial";
+                font-style: normal;
+                font-weight: 400;
+                font-size: mixs.rem(12);
+                line-height: mixs.rem(18);
+                display: flex;
+                align-items: center;
+
+                color: #0f1111;
+              }
+            }
+          }
+        }
+        .action {
+          width: 100%;
+          height: mixs.rem(19) !important;
+          color: vars.$dark-cyan;
+          font-size: mixs.rem(13);
+          cursor: pointer;
+        }
+      }
+    }
+    .row {
+      .rowTypeOne {
+        width: 100%;
+        height: mixs.rem(281);
+        margin-bottom: mixs.rem(20);
+        background-color: vars.$primary-color;
+        padding: mixs.rem(20);
+
+        .heading {
+          height: mixs.rem(27);
+          font-size: mixs.rem(21);
+          font-weight: bold;
+        }
+      }
     }
   }
   //
@@ -149,6 +259,117 @@
       grid-template-rows: 2fr;
       grid-column-gap: mixs.rem(20);
       grid-row-gap: mixs.rem(20);
+
+      margin-bottom: mixs.rem(20);
+      width: 100%;
+
+      .cardTypeOne {
+        height: mixs.rem(420);
+        padding: mixs.rem(20);
+        background-color: vars.$primary-color;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .heading {
+          width: 100%;
+          height: mixs.rem(27) !important;
+          font-size: mixs.rem(21);
+          font-weight: bold;
+        }
+        .photos {
+          width: 100%;
+          height: mixs.rem(311) !important;
+
+          .photoTypeOne {
+            display: flex;
+            justify-content: space-between;
+
+            div {
+              height: mixs.rem(151);
+
+              p {
+                height: mixs.rem(18);
+
+                font-family: "Arial";
+                font-style: normal;
+                font-weight: 400;
+                font-size: mixs.rem(12);
+                line-height: mixs.rem(18);
+                display: flex;
+                align-items: center;
+
+                color: #0f1111;
+              }
+            }
+          }
+
+          .photoTypeTwo {
+            display: flex;
+
+            div {
+              height: mixs.rem(192);
+
+              p {
+                height: mixs.rem(18);
+                font-family: "Arial";
+                font-style: normal;
+                font-weight: 400;
+                font-size: mixs.rem(12);
+                line-height: mixs.rem(18);
+                display: flex;
+                align-items: center;
+
+                color: #0f1111;
+              }
+            }
+          }
+          .photoTypeThree {
+            display: flex;
+            // gap: 5;
+
+            div {
+              height: mixs.rem(100);
+              p {
+                height: mixs.rem(18);
+                font-family: "Arial";
+                font-style: normal;
+                font-weight: 400;
+                font-size: mixs.rem(12);
+                line-height: mixs.rem(18);
+                display: flex;
+                align-items: center;
+
+                color: #0f1111;
+              }
+            }
+          }
+        }
+        .action {
+          width: 100%;
+          height: mixs.rem(19) !important;
+          color: vars.$dark-cyan;
+          font-size: mixs.rem(13);
+          cursor: pointer;
+        }
+      }
+    }
+    .row {
+      .rowTypeOne {
+        width: 100%;
+        height: mixs.rem(281);
+        margin-bottom: mixs.rem(20);
+        background-color: vars.$primary-color;
+        padding: mixs.rem(20);
+
+        .heading {
+          height: mixs.rem(27);
+          font-size: mixs.rem(21);
+          font-weight: bold;
+        }
+      }
     }
   }
   //
