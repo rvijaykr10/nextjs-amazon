@@ -310,22 +310,29 @@ export default function Products() {
             Best Sellers in Sports & Outdoors
           </div>
         </div>
-        <div className={styles.rowTypeOne}>
+        {/* <div className={styles.rowTypeOne}>
           <div className={styles.heading}>Most wished for in Movies & TV</div>
-        </div>
+        </div> */}
       </section>
       <section className={styles.cardRow}>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>
             Shop activity trackers and smartwatches
           </div>
-          <div className={styles.photos}>photos</div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/tracker_1.svg"
+              alt="gaming photo"
+              width={310}
+              height={303}
+              priority
+            />
+          </div>
           <div className={styles.action}>See more</div>
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Gaming merchandise</div>
           <div className={styles.photos}>
-            {" "}
             <div className={styles.photos}>
               <div className={styles.photoTypeOne}>
                 <div>
@@ -408,9 +415,9 @@ export default function Products() {
             Best Sellers in Beauty & Personal Care
           </div>
         </div>
-        <div className={styles.rowTypeOne}>
+        {/* <div className={styles.rowTypeOne}>
           <div className={styles.heading}>Exciting deals</div>
-        </div>
+        </div> */}
       </section>
       <section className={styles.cardRow}>
         <div className={styles.cardTypeOne}>
@@ -506,7 +513,7 @@ export default function Products() {
           <div className={styles.action}>See more</div>
         </div>
       </section>
-      <section className={styles.row}>
+      {/* <section className={styles.row}>
         <div className={styles.rowTypeOne}>
           <div className={styles.heading}>
             Best Sellers in Cell Phones & Accessories
@@ -518,7 +525,7 @@ export default function Products() {
         <div className={styles.rowTypeOne}>
           <div className={styles.heading}>Best Sellers in Books</div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

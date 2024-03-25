@@ -76,6 +76,7 @@
             }
           }
         }
+
         .photoTypeThree {
           display: flex;
           // gap: 5;
@@ -98,7 +99,8 @@
         }
 
         .photoTypeFour {
-          margin: auto;
+          display: flex;
+          justify-content: center;
         }
       }
       .action {
