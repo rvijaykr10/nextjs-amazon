@@ -237,14 +237,16 @@ export default function Products() {
         </div>
         <div className={styles.cardTypeOne}>
           <div className={styles.heading}>Top Deal</div>
-          <div style={{ display: "contents" }} className={styles.photos}>
-            <Image
-              src="/images/top_deal_1.svg"
-              alt="gaming photo"
-              width={73}
-              height={230}
-              priority
-            />
+          <div className={styles.photos}>
+            <div className={styles.photoTypeFour}>
+              <Image
+                src="/images/top_deal_1.svg"
+                alt="gaming photo"
+                width={73}
+                height={230}
+                priority
+              />
+            </div>
           </div>
           <div className={styles.action}>See more</div>
         </div>

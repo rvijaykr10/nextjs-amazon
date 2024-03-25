@@ -13,3 +13,57 @@ body {
   left: 0;
   right: 0;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  /* Styles for mobile devices */
+  .productFooterContainer {
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* Styles for above mobile devices */
+  /* background-color: rgb(0, 255, 115); */
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  /* background-color: rgb(255, 0, 157); */
+  .productFooterContainer {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for small laptops */
+  /* background-color: rgb(51, 0, 255); */
+}
+@media only screen and (min-width: 1441px) {
+  /* Styles for large screens */
+  /* background-color: rgb(234, 0, 255); */
+}
+@media only screen and (orientation: portrait) {
+  /* Styles for portrait mode */
+  /* background-color: rgb(28, 2, 23); */
+  /* .productFooterContainer {
+    position: absolute;
+    top: 17vh;
+    left: 0;
+    right: 0;
+  } */
+}
+@media only screen and (orientation: landscape) {
+  /* Styles for landscape mode */
+  /* background-color: rgb(230, 227, 35); */
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi) {
+  /* Styles for high-resolution displays */
+  /* background-color: rgb(3, 127, 38); */
+}

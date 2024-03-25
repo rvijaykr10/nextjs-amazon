@@ -1,5 +1,5 @@
 import Banner from "@/components/Banner";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Products from "@/components/Products";
 
@@ -10,7 +10,7 @@ export default function page() {
       <Banner />
       <div className="productFooterContainer">
         <Products />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

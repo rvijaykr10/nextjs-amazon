@@ -96,6 +96,10 @@
             }
           }
         }
+
+        .photoTypeFour {
+          margin: auto;
+        }
       }
       .action {
         width: 100%;
@@ -137,7 +141,7 @@
       width: 100%;
 
       .cardTypeOne {
-        height: mixs.rem(350);
+        height: mixs.rem(272);
         padding: mixs.rem(20);
         background-color: vars.$primary-color;
 
@@ -149,18 +153,18 @@
         .heading {
           width: 100%;
           height: mixs.rem(27) !important;
-          font-size: mixs.rem(21);
+          font-size: mixs.rem(9.6);
           font-weight: bold;
         }
         .photos {
           width: 100%;
-          height: mixs.rem(247) !important;
+          height: mixs.rem(192) !important;
 
           .photoTypeOne {
             display: flex;
 
             div {
-              height: mixs.rem(125);
+              height: mixs.rem(96);
 
               p {
                 height: mixs.rem(18);
@@ -168,7 +172,7 @@
                 font-family: "Arial";
                 font-style: normal;
                 font-weight: 400;
-                font-size: mixs.rem(12);
+                font-size: mixs.rem(8);
                 line-height: mixs.rem(18);
                 display: flex;
                 align-items: center;
@@ -182,14 +186,14 @@
             display: flex;
 
             div {
-              height: mixs.rem(160);
+              height: mixs.rem(128);
 
               p {
                 height: mixs.rem(18);
                 font-family: "Arial";
                 font-style: normal;
                 font-weight: 400;
-                font-size: mixs.rem(12);
+                font-size: mixs.rem(8);
                 line-height: mixs.rem(18);
                 display: flex;
                 align-items: center;
@@ -198,6 +202,7 @@
               }
             }
           }
+
           .photoTypeThree {
             display: flex;
             // gap: 5;
@@ -209,7 +214,7 @@
                 font-family: "Arial";
                 font-style: normal;
                 font-weight: 400;
-                font-size: mixs.rem(12);
+                font-size: mixs.rem(8);
                 line-height: mixs.rem(18);
                 display: flex;
                 align-items: center;
@@ -219,11 +224,20 @@
             }
           }
         }
+
+        .photoTypeFour {
+          img {
+            height: mixs.rem(192) !important;
+            width: auto;
+            margin: auto;
+          }
+        }
+
         .action {
           width: 100%;
-          height: mixs.rem(19) !important;
+          // height: mixs.rem(19) !important;
           color: vars.$dark-cyan;
-          font-size: mixs.rem(13);
+          font-size: mixs.rem(8);
           cursor: pointer;
         }
       }
@@ -238,7 +252,7 @@
 
         .heading {
           height: mixs.rem(27);
-          font-size: mixs.rem(21);
+          font-size: mixs.rem(9.6);
           font-weight: bold;
         }
       }
