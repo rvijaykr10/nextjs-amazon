@@ -309,6 +309,57 @@ export default function Products() {
           <div className={styles.heading}>
             Best Sellers in Sports & Outdoors
           </div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/outdoor_1.svg"
+              alt="gaming photo"
+              width={197}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/outdoor_2.svg"
+              alt="gaming photo"
+              width={228}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/outdoor_3.svg"
+              alt="gaming photo"
+              width={188}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/outdoor_4.svg"
+              alt="gaming photo"
+              width={145}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/outdoor_5.svg"
+              alt="gaming photo"
+              width={145}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/outdoor_6.svg"
+              alt="gaming photo"
+              width={270}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/outdoor_7.svg"
+              alt="gaming photo"
+              width={190}
+              height={200}
+              priority
+            />
+          </div>
         </div>
         {/* <div className={styles.rowTypeOne}>
           <div className={styles.heading}>Most wished for in Movies & TV</div>
@@ -413,6 +464,64 @@ export default function Products() {
         <div className={styles.rowTypeOne}>
           <div className={styles.heading}>
             Best Sellers in Beauty & Personal Care
+          </div>
+          <div className={styles.photos}>
+            <Image
+              src="/images/care_1.svg"
+              alt="gaming photo"
+              width={145}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/care_2.svg"
+              alt="gaming photo"
+              width={156}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/care_3.svg"
+              alt="gaming photo"
+              width={197}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/care_4.svg"
+              alt="gaming photo"
+              width={194}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/care_5.svg"
+              alt="gaming photo"
+              width={187}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/care_6.svg"
+              alt="gaming photo"
+              width={145}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/care_7.svg"
+              alt="gaming photo"
+              width={145}
+              height={200}
+              priority
+            />
+            <Image
+              src="/images/care_8.svg"
+              alt="gaming photo"
+              width={171}
+              height={200}
+              priority
+            />
           </div>
         </div>
         {/* <div className={styles.rowTypeOne}>
