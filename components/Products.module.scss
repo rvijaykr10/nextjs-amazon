@@ -160,8 +160,8 @@
 
         .heading {
           width: 100%;
-          height: mixs.rem(27) !important;
-          font-size: mixs.rem(9.6);
+          height: mixs.rem(50) !important;
+          font-size: mixs.rem(12);
           font-weight: bold;
         }
         .photos {
@@ -259,8 +259,8 @@
         padding: mixs.rem(20);
 
         .heading {
-          height: mixs.rem(27);
-          font-size: mixs.rem(9.6);
+          height: mixs.rem(50);
+          font-size: mixs.rem(12);
           font-weight: bold;
         }
 
@@ -269,7 +269,10 @@
           flex-wrap: nowrap;
           overflow-x: auto;
 
-          height: 12rem;
+          // height: 12rem;
+          img {
+            height: mixs.rem(160);
+          }
         }
       }
     }
