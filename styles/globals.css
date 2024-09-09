@@ -5,6 +5,10 @@
 body {
   background-color: #e3e6e6;
   position: relative;
+
+  max-width: 1200px;
+  margin: 0 auto; /* Center align */
+  padding: 0 1rem; /* Optional padding for better spacing */
 }
 
 .productFooterContainer {
