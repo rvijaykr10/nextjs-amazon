@@ -46,10 +46,22 @@ body {
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   /* Styles for small laptops */
+  .productFooterContainer {
+    position: absolute;
+    top: 38vh;
+    left: 0;
+    right: 0;
+  }
   /* background-color: rgb(51, 0, 255); */
 }
 @media only screen and (min-width: 1441px) {
   /* Styles for large screens */
+  .productFooterContainer {
+    position: absolute;
+    top: 27vh;
+    left: 0;
+    right: 0;
+  }
   /* background-color: rgb(234, 0, 255); */
 }
 @media only screen and (orientation: portrait) {
